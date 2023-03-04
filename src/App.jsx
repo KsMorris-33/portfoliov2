@@ -21,7 +21,6 @@ const App = () => {
 
       </div>
     </div>
-        proyecto en 3D
     </BrowserRouter>
   )
 }
