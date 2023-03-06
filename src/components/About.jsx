@@ -11,7 +11,7 @@ const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className='green-pink-gradient p-[5px] rounded-[20px] shadow-card content-around '
     >
       <div
         options={{
@@ -39,15 +39,15 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Overview</p>
+        <h2 className={styles.sectionHeadText}>Who am i.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis nemo corporis facere libero voluptatibus asperiores eaque at iure porro est ea labore, iusto adipisci, beatae accusamus eveniet quasi possimus. Non?
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla illum, eaque neque optio dolore, beatae eum repellendus earum iste nesciunt asperiores labore magnam! Deleniti optio corrupti vero nisi nam illo?
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
