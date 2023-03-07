@@ -1,20 +1,16 @@
 import {
-    mobile,
     backend,
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
+
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
     meta,
     starbucks,
     tesla,
@@ -23,6 +19,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    bryan,
+    mody,
+    emma,
   } from "../assets";
   
   export const navLinks = [
@@ -44,10 +43,6 @@ import {
     {
       title: "Web Developer",
       icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
     },
     {
       title: "Backend Developer",
@@ -73,16 +68,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -104,67 +91,65 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Administrative experiences",
+      company_name: "Espacios & Entornos e.a.t",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2019 - December 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Organization and administrative supervision of personnel", 
+        "Customer service including incidents and claims", 
+        "Support in the resolution of incidents related to the products and services offered by the company",
+        "Friendly and professional customer service"
+        
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Freelance frontend developer",
+      company_name: "entrepreneurship",
       icon: tesla,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Design of user interfaces and web design with HTML and CSS",
+        "Definition of technical proposals",
+        "Selection of technologies and elaboration of functional requirements",
+        "Construction and configuration of cloud environments AWS"
+
+        
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "MERN Stack website ",
+      company_name: "entrepreneurship",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jun 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining web applications using React.js ",
+        "Implementing express and mongoose for the development of an Ecommerce",
+        "Implementing Bootstrap.",
+        "Using Git for version control.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Financial Crisis",
+      company_name: "unemployed",
       icon: meta,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Practice and learn tools within the React ecosystem such as Fiber",
+        "Improve productivity and implement Notion",
+        "Develop a v2 portfolio with better UI/UX and look for a first job that allows me to grow in the tech industry",
+        "Improve my english (actually B2) ",
+        "Create content on YouTube (coming soon)"
+
       ],
     },
   ];
@@ -172,35 +157,35 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I really needed to put my business on the internet, Kevin designed and developed the website, the corporate emails, and organized everything for us, man... you're the best.",
+      name: "Bryan S. Morris",
+      designation: "CEO",
+      company: "Ingeniar diseños y construcciones",
+      image: bryan,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I've never met a web developer who truly cares about their clients' success like Kevin does.",
+      name: "Jonathan 'Mody' Araque",
+      designation: "Graphic designer",
+      company: "CUN",
+      image: mody,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "I loved the design of my site, since I'm online my sales increased",
+      name: "Angie L. Vargas",
+      designation: "Entrepreneur",
+      company: "Emma diseños",
+      image: emma,
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Xué Store",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Ecommerce M.E.R.N - A simple buying and selling system, with user registration, shopping cart, and ready to connect to payment gateways.",
       tags: [
         {
           name: "react",
@@ -211,54 +196,54 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "nodejs",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/KsMorris-33/XueStore",
     },
     {
-      name: "Job IT",
+      name: "Portfolio v1.0",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A very attractive web designer portfolio, fully responsive, modern UI/UX,  made with react",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "UI/UX",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Components",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/KsMorris-33/kevinmorris",
     },
     {
-      name: "Trip Guide",
+      name: "Palazzo pants store (in construction)" ,
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Beautiful landing page of a business dedicated to the manufacture and sale of 'Palazzo' type pants",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Go",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/KsMorris-33/",
     },
   ];
   
